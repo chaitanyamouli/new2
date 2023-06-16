@@ -1,0 +1,16 @@
+<section class="mt-4 mx-4">
+    <div class="row row-col-1 row-cols-md-4 g-4">
+        <div class="col" *ngFor="let img of Images">
+            <div class="card shadow-lg" data-aos="zoom-in">
+               <img [src]="img.image" [alt]="img.alt" >
+                  <div class="card-title">
+                    <h1>{{img.title}}</h1>
+                      <div class="card-body">
+                        <p>{{img.desc}}</p>
+                        <button  (click)="onclick()"> {{img.button}}</button>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>

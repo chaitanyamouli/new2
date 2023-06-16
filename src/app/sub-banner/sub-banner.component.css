@@ -1,0 +1,23 @@
+.container1{
+    background-color: aqua;
+    display: flex;
+}
+.container1 img{
+    width: 500px;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 75px;
+}
+.container1 .container-content{
+    display: flex;
+    text-align: center;
+    padding-left: 25%;
+    padding-top: 20%;
+    flex-direction: column;
+}
+.container1 .container-content h1{
+    font: weight 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6rem;
+}

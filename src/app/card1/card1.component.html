@@ -1,0 +1,16 @@
+<section class="mt-4 mx-4">
+    <div class="row row-col-1 row-cols-md-4 g-4">
+        <div class="col" *ngFor="let food of foods">
+            <div class="card shadow-lg" >
+               <img [src]="food.src" [alt]="food.alt" >
+                  <div class="card-title">
+                    <h1>{{food.alt}}</h1>
+                      <div class="card-body">
+                        <p>{{food.id}}</p>
+                       
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
